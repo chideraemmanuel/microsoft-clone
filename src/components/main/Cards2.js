@@ -1,8 +1,20 @@
-import { useEffect, useState } from "react";
+// import { useEffect, useState } from "react";
 import { FaChevronRight } from "react-icons/fa";
 
 const Cards2 = () => {
-  const [cards2, setCards2] = useState([
+  // const [cards2, setCards2] = useState(null);
+
+  // useEffect(() => {
+  //   fetch("http://localhost:8000/cards2")
+  //     .then((response) => {
+  //       return response.json();
+  //     })
+  //     .then((data) => {
+  //       setCards2(data);
+  //     });
+  // }, []);
+
+  const cards2 = [
     {
       id: "5",
       src: "process.env.PUBLIC_URL + '/images/card-5.webp'",
@@ -33,17 +45,7 @@ const Cards2 = () => {
       body: "Discover tools, resources, and strategies to help your employees succeed in the new world of flexible work.",
       link: "Learn more",
     },
-  ]);
-
-  // useEffect(() => {
-  //   fetch("http://localhost:8000/cards2")
-  //     .then((response) => {
-  //       return response.json();
-  //     })
-  //     .then((data) => {
-  //       setCards2(data);
-  //     });
-  // }, []);
+  ];
 
   return (
     <section className="cards2 container">

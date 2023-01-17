@@ -1,8 +1,20 @@
-import { useEffect, useState } from "react";
+// import { useEffect, useState } from "react";
 import { FaChevronRight } from "react-icons/fa";
 
 const Cards3 = () => {
-  const [cards3, setCards3] = useState([
+  // const [cards3, setCards3] = useState(null);
+
+  // useEffect(() => {
+  //   fetch("http://localhost:8000/cards3")
+  //     .then((response) => {
+  //       return response.json();
+  //     })
+  //     .then((data) => {
+  //       setCards3(data);
+  //     });
+  // }, []);
+
+  const cards3 = [
     {
       id: "9",
       src: "process.env.PUBLIC_URL + '/images/card-9.webp'",
@@ -31,17 +43,7 @@ const Cards3 = () => {
       body: "If you make a purchase from Microsoft Store and we lower the price within 30 days (up to 60 days for Surface devices), we'll refund you the difference. Exclusions may apply.*",
       link: "Learn more",
     },
-  ]);
-
-  // useEffect(() => {
-  //   fetch("http://localhost:8000/cards3")
-  //     .then((response) => {
-  //       return response.json();
-  //     })
-  //     .then((data) => {
-  //       setCards3(data);
-  //     });
-  // }, []);
+  ];
 
   return (
     <section className="cards cards3 container">

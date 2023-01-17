@@ -1,8 +1,20 @@
-import { useEffect, useState } from "react";
+// import { useEffect, useState } from "react";
 import { FaChevronRight } from "react-icons/fa";
 
 const Cards = () => {
-  const [cards, setCards] = useState([
+  // const [cards, setCards] = useState(null);
+
+  // useEffect(() => {
+  //   fetch("http://localhost:8000/cards")
+  //     .then((response) => {
+  //       return response.json();
+  //     })
+  //     .then((data) => {
+  //       setCards(data);
+  //     });
+  // }, []);
+
+  const cards = [
     {
       id: "1",
       src: "process.env.PUBLIC_URL+'/images/card-1.webp'",
@@ -31,17 +43,7 @@ const Cards = () => {
       body: "The tablet flexibility you want and the laptop performance you need--all in one ultra-portable device. Offer ends 1/15.",
       link: "Shop Surface Pro 9",
     },
-  ]);
-
-  // useEffect(() => {
-  //   fetch("http://localhost:8000/cards")
-  //     .then((response) => {
-  //       return response.json();
-  //     })
-  //     .then((data) => {
-  //       setCards(data);
-  //     });
-  // }, []);
+  ];
 
   return (
     <section className="cards container">
