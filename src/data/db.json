@@ -1,0 +1,96 @@
+{
+  "cards": [
+    {
+      "id": "1",
+      "src": "process.env.PUBLIC_URL+'/images/card-1.webp'",
+      "title": "Building skills for jobs",
+      "body": "Since 2020, Microsoft and LinkedIn have helped 80 million people access digital skills, Learn what's next in our work to ensure people have the technology, skills and opportunity to thrive in changing economy.",
+      "link": "Explore programs"
+    },
+    {
+      "id": "2",
+      "src": "process.env.PUBLIC_URL + '/images/card-2.webp'",
+      "title": "Save up to $300 on Surface Laptop 5",
+      "body": "Sophisticated style and multitasking speed powered by 12th Gen Intel Core. Offer ends 1/22.",
+      "link": "Shop Surface Laptop 5"
+    },
+    {
+      "id": "3",
+      "src": "process.env.PUBLIC_URL + '/images/card-3.webp'",
+      "title": "Power your adventure",
+      "body": "Get an Xbox Series X and Forza Horizon 5 Premium Edition.",
+      "link": "Shop Xbox Series X Bundle"
+    },
+    {
+      "id": "4",
+      "src": "process.env.PUBLIC_URL + '/images/card-4.webp'",
+      "title": "Save up to $236 on new Surface Pro 9",
+      "body": "The tablet flexibility you want and the laptop performance you need--all in one ultra-portable device. Offer ends 1/15.",
+      "link": "Shop Surface Pro 9"
+    }
+  ],
+
+  "cards2": [
+    {
+      "id": "5",
+      "src": "process.env.PUBLIC_URL + '/images/card-5.webp'",
+      "title": "Surface Pro 9 for Business",
+      "body": "Empower flexible, all-day impact with tablet portability and laptop performance. Questions? Book an online consultation.",
+      "link": "Shop now",
+      "link2": "Book a consultation.",
+      "tag": "New"
+    },
+    {
+      "id": "6",
+      "src": "process.env.PUBLIC_URL + '/images/card-6.webp'",
+      "title": "Get Microsoft Teams for free",
+      "body": "Online meetings, chat, and shared cloud ctorage--all in one place.",
+      "link": "Sign up for free"
+    },
+    {
+      "id": "7",
+      "src": "process.env.PUBLIC_URL + '/images/card-7.webp'",
+      "title": "Welcome to your Windows 365 Cloud PC",
+      "body": "Securely stream your Windows experience from the Microsoft cloud to any device.",
+      "link": "Get it today"
+    },
+    {
+      "id": "8",
+      "src": "process.env.PUBLIC_URL + '/images/card-8.webp'",
+      "title": "Thrive in a hybrid world",
+      "body": "Discover tools, resources, and strategies to help your employees succeed in the new world of flexible work.",
+      "link": "Learn more"
+    }
+  ],
+
+  "cards3": [
+    {
+      "id": "9",
+      "src": "process.env.PUBLIC_URL + '/images/card-9.webp'",
+      "title": "Free 2-3 day shipping",
+      "body": "Enjoy free expedited shipping, or choose ground shipping (3-7 business days) for lower carbon emissions on eligible orders in the contiguous US.",
+      "link": "Learn more"
+    },
+    {
+      "id": "10",
+      "src": "process.env.PUBLIC_URL + '/images/card-10.webp'",
+      "title": "Free 30-day returns",
+      "body": "Return almost any like-new product in its original packaging within 30 days (up to 60 days for Surface devices*).",
+      "link": "Learn more"
+    },
+    {
+      "id": "11",
+      "src": "process.env.PUBLIC_URL + '/images/card-11.webp'",
+      "title": "Flexible payment options that start at 0% APR",
+      "body": "Get what you want, when you want it with safe, simple payment options.",
+      "link": "Learn more"
+    },
+    {
+      "id": "12",
+      "src": "process.env.PUBLIC_URL + '/images/card-12.webp'",
+      "title": "30-day price promise",
+      "body": "If you make a purchase from Microsoft Store and we lower the price within 30 days (up to 60 days for Surface devices), we'll refund you the difference. Exclusions may apply.*",
+      "link": "Learn more"
+    }
+  ]
+}

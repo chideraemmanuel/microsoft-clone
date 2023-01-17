@@ -1,0 +1,40 @@
+.hero2 {
+  margin-bottom: 50px !important;
+
+  .hero2-desktop {
+    position: relative;
+
+    .hero2-text {
+      position: absolute;
+      left: 4%;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 500px;
+
+      & > * {
+        margin-bottom: 20px;
+      }
+
+      h2 {
+        font-size: 2rem;
+        font-weight: 500;
+      }
+    }
+  }
+
+  .hero2-mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .hero2-desktop {
+    display: none;
+  }
+
+  .hero2-mobile {
+    display: block !important;
+    position: relative;
+    margin-bottom: 250px;
+  }
+}

@@ -1,0 +1,11 @@
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  margin-bottom: 50px !important;
+
+  svg {
+    transform: scale(1.2);
+  }
+}

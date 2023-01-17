@@ -1,0 +1,50 @@
+.why-microsoft {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 50px !important;
+
+  h3 {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+
+  a {
+    font-size: 0.9rem;
+    color: $blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    font-weight: 500;
+
+    p {
+      display: inline;
+    }
+
+    svg {
+      transition: 0.2s ease;
+      transform: scale(0.9);
+    }
+
+    &:hover p {
+      border-bottom: 1px solid $blue;
+    }
+
+    &:hover svg {
+      transform: translateX(5px) scale(0.9);
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .why-microsoft {
+    h3 {
+      font-size: 1.5rem;
+    }
+  }
+}

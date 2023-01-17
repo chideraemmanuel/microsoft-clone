@@ -1,0 +1,34 @@
+.branches {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  gap: 50px;
+  font-size: 0.9rem;
+  margin-bottom: 50px;
+
+  a {
+    display: inline-block;
+    color: $blue;
+    border-bottom: 1px solid $blue;
+    font-weight: 500;
+
+    &:hover {
+      color: darken($blue, 10%);
+    }
+  }
+
+  img {
+    width: 40px;
+  }
+
+  .branch {
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+}
